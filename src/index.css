@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    background: #f5f0f0;
+    color: rgba(0,0,0,0.9);
+    overflow-x: hidden;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.link:hover{
+    color: #ff5252;
+}
+
+.MuiBadge-badge{
+    background-color: #ff5252 !important;
+}
+
+nav ul Button{
+    text-transform: capitalize !important;
+}
+
+nav ul Button:hover{
+    background: none !important;
+}
+
+.sliderHome{
+    overflow: inherit !important;
+}
+
+.swiper-button-prev,.swiper-button-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 100%; width: 45px; height: 45px; min-width: 45px;
+    box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d !important;
+}
+
+.swiper-button-prev:after,.swiper-button-next:after{
+    font-size: 22px !important;
+    color: #000;
+}
+
+.homeCatSlider{
+    overflow: inherit !important;
+}
+
+.homeCatSlider .swiper-button-prev, .homeCatSlider .swiper-button-next{
+    width: 40px; 
+    height: 40px; 
+    min-width: 40px;
+}
+
+.homeCatSlider .swiper-button-prev:after, .homeCatSlider .swiper-button-next:after{
+    font-size: 16px !important;
+}
+
+.homeCatSlider .swiper-button-next{
+    right: 0px !important;
+}
+
+.homeCatSlider .swiper-button-prev{
+    left: 0px !important;
+}
+
+.homeCatSlider .swiper-button-next:hover{
+    background: #ff5252 !important;
+}
+
+.homeCatSlider .swiper-button-next:hover::after{
+    color: #fff;
+}
+
+.homeCatSlider .swiper-button-prev:hover{
+    background: #ff5252 !important;
+}
+
+.homeCatSlider .swiper-button-prev:hover::after{
+    color: #fff;
+}
+
+.homeCatSlider .item:hover img{
+    transform: scale(1.1);
+}
